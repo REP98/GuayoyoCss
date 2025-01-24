@@ -1,0 +1,42 @@
+{
+  "name": "guayoyocss",
+  "version": "1.0.0",
+  "description": "Framework Scss Oficial de Vzlaweb.com, simple funcional he inspirado en Venezuela.",
+  "main": "src/ts/main.ts",
+  "directories": {
+    "doc": "docs",
+    "demos": "demos",
+    "dist": "dist"
+  },
+  "scripts": {
+    "build:scss": "sass src/scss/main.scss dist/css/main.css --style compressed",
+    "watch:scss": "sass --watch src/scss/main.scss dist/css/main.css",
+    "build:ts": "tsc",
+    "watch:ts": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REP98/GuayoyoCss.git"
+  },
+  "keywords": [
+    "CSS",
+    "SCSS",
+    "Framework",
+    "REP98"
+  ],
+  "author": {
+    "url": "https://rep98.vzlaweb.com",
+    "name": "Robert Pérez",
+    "email": "robertperez@vzlaweb.com"
+  },
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/REP98/GuayoyoCss/issues"
+  },
+  "homepage": "https://github.com/REP98/GuayoyoCss#readme",
+  "devDependencies": {
+    "sass": "1.83.4",
+    "typescript": "5.7.3"
+  }
+}
